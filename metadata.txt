@@ -1,0 +1,36 @@
+# Mandatory items:
+
+[general]
+name=QSphere
+qgisMinimumVersion=2.0.0
+category=Metadata
+description=Tools for create INSPIRE and ISO 19139 metadata
+version=2.14.3
+
+
+# Optional items:
+changelog=
+        - 2.14.3 : Fixed minor bugs : correct position in combobox for thematics INSPIRE keywords ;
+        - 2.14.3 : Add rendering XML and HTML directly in mainUI (lightweight ergonomic redesign) ;
+        - 2.14.2 : List of new in about file under "ressources/html" ;
+        - 2.14.1 : Fixed minor bugs : stylesheet for buttons in tables (icons visible only after a click), bad allocation (F11 on "add line after current line" and not "add new line (at the end of table"));
+        - 2.14.0 : Fixed bugs (EncodeURLQuery), New action to add and delete lines in Table composition directly in the main window for metadata (F11 and F12 keys);
+        - 2.14.0 : New button organization in the main window for metadata ; New mode for search files results in Web navigator ; New icons ;
+        - 2.14.0 : Extend save actions buttons for all user interfaces ; New wizard for LusTRE Thesaurus keywords ;
+        - 2.14.0 : Extend drag and drop actions beetween thematics and free keywords ; Extents F11 and F12 keys actions for Table Wizard composition ;
+
+
+about= QSphere is an extension for creating metadata record.
+tags= METADATA, XML, ISO, INSPIRE, 19139
+homepage=https://qgis.projets.developpement-durable.gouv.fr/projects/qsphere
+tracker=https://qgis.projets.developpement-durable.gouv.fr/projects/qsphere
+repository=http://piece-jointe-carto.developpement-durable.gouv.fr/NAT002/QGIS/plugins/plugins.xml
+icon=icons/qsphere.png 
+experimental=False
+deprecated=False
+
+# Author contact information
+author=MASSE Christophe
+email=pegasus2167@hotmail.fr
+
+class_name=QSpherePlugin
